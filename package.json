@@ -1,0 +1,21 @@
+{
+  "name": "url-shortner-server",
+  "version": "1.0.0",
+  "description": "url shortener api generation and login flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "reka",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3",
+    "node-mailer": "^0.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
